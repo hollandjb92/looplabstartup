@@ -1,0 +1,51 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+/* Navbar and Home Section  */
+
+.navbar {
+  border-bottom: #008ed6 0.1875rem solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url("images/looplab/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 43.75rem;
+}
+
+.dark-overlay {
+  position: absolute;
+  width: 100%;
+  min-height: 43.75rem;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.home-inner {
+  padding-top: 9.375rem;
+}
+
+#home-section .card {
+  opacity: 0.8;
+}
+
+/* ICONS  */
+#home-section .fas,
+#create-section .fas {
+  color: #008ed6;
+  background-color: #fff;
+  padding: 0.3125rem;
+  border-radius: 0.3125rem;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 0.3125rem;
+  border-radius: 0.3125rem;
+}
